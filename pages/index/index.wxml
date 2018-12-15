@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+  <view wx:for="{{cardTeams}}" wx:for-item="cardTeam" id="{{cardTeam.id}}" class="item" >
+        <image class="img" src="{{cardTeam.imgsrc}}" mode="scaleToFill"></image>
+        <view class="number-wrapper">
+          <text class="name">{{cardTeam.name}}</text>
+          <view class="count-wrapper">
+        
+            <text class="count">{{cardTeam.count}}</text>
+        
+          </view>
+          <view class="price-wrapper">
+            <text class="unit">¥</text>
+            <text class="price">{{cardTeam.price}}</text>
+          </view>
+        </view>
+    
+      </view>
+</view>
+

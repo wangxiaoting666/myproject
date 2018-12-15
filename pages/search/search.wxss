@@ -1,0 +1,138 @@
+.index-contier {
+	color: #ffffff;
+	font-size: 12px;
+	width: 100%;
+	height:620rpx;
+background-size: cover; 
+
+ 
+}
+
+.index-left {
+	float: left;
+	width: 30%;
+	text-align: center;
+	margin-top: 477rpx;
+  color: #000000;
+}
+
+.index-center {
+	float: left;
+	width: 40%;
+	text-align: center;
+  margin-top:240rpx;
+  color: #000000;
+}
+
+.logo {
+	margin: 0 auto;
+	width: 80px;
+	height: 80px;
+	
+	border-radius: 40px;
+}
+
+.index-right {
+	float: left;
+	width: 30%;
+	text-align: center;
+	margin-top:477rpx;
+  color: #000000;
+}
+
+.index-right image{
+  height: 100%;
+  width: 100%;
+
+}
+.inform {
+	padding: 0 6px;
+	font-size: 12px;
+}
+
+.phone {
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #e6e5e2;
+}
+
+.phone span {
+	margin: 0 10px;
+}
+
+.phone span:nth-child(2) {
+	float: right;
+}
+
+.name {
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #e6e5e2;
+}
+
+.name span {
+	margin: 0 10px;
+}
+
+.name span:nth-child(2) {
+	float: right;
+}
+
+.sex {
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #e6e5e2;
+}
+
+.sex span {
+	margin: 0 10px;
+}
+
+.sex span:nth-child(2) {
+	float: right;
+}
+
+.age {
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #e6e5e2;
+}
+
+.age span {
+	margin: 0 10px;
+}
+
+.age span:nth-child(2) {
+	float: right;
+}
+
+.manger {
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #e6e5e2;
+}
+
+.manger span {
+	margin: 0 10px;
+}
+
+.manger span:nth-child(2) {
+	float: right;
+}
+
+#userinfo1{
+  width: 185rpx;
+  height:185rpx;
+  /* margin:20rpx; */
+  border-radius:50%;
+  display: flex;
+  overflow:hidden;
+  text-align: center;
+}
+
+#userinfo2{
+ font-family: "微软雅黑"; 
+ font-size: 15px;
+  margin-top:75rpx;
+ 
+}

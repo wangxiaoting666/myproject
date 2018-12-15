@@ -1,0 +1,34 @@
+<view class='index-contier'>
+	<view class="index-left">
+	
+	</view>
+
+
+	<view class="index-center">
+		<view class="logo"><open-data type="userAvatarUrl" class="userinfo" id="userinfo1"></open-data></view>
+		<view  id="userinfo2"><open-data type="userNickName" class="userinfo"></open-data></view>
+	</view>
+
+</view>
+
+<view class='inform'>
+
+<view class='manger'>
+		<span>工号</span>
+		<span>{{user.empNo}}</span>
+	</view>
+	<view class='name'>
+		<span>姓名</span>
+		<span>{{user.name}}</span>
+	</view>
+	<view class='sex'>
+		<span>性别</span>
+		<span wx:if="{{user.sex == '1'}}">男</span>
+    <span wx:if="{{user.sex == '0'}}">女</span>
+	</view>
+  <view class='phone'>
+		<span>手机</span>
+		<span>{{user.phone}}</span>
+	</view>
+
+</view>
